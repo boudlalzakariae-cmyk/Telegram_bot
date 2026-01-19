@@ -1,0 +1,8 @@
+{
+  "admin_id": 7120438475,
+  "ipa_site": "https://example.com/ipa",
+  "dylib_site": "https://example.com/dylib",
+  "hologram_site": "https://example.com/hologram",
+  "rootdevice_site": "https://example.com/root",
+  "support": "https://t.me/sw4rd_exe"
+}
