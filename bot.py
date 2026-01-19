@@ -1,8 +1,12 @@
-import telebot, json, os, time, random, string
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+import telebot
+import json
+import os
+import time
+import random
+import string
 
-BOT_TOKEN = os.getenv("8508415510:AAHa5oL4UO-9CDENNE9ZyXfbKEA6p5mGOTE")
-bot = telebot.TeleBot(8508415510:AAHa5oL4UO-9CDENNE9ZyXfbKEA6p5mGOTE)
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+bot = telebot.TeleBot(BOT_TOKEN)
 
 # ===== LOAD / SAVE =====
 def load(path):
